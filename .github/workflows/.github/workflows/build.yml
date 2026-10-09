@@ -28,3 +28,4 @@ jobs:
         with:
           name: NEXTUP-Windows
           path: dist/NEXTUP.exe
+        run: pyinstaller --noconfirm --clean --onefile --windowed --name NEXTUP nextup_launcher.py
